@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Elementos1903Application implements CommandLineRunner {
 
     @Autowired
-    RepoCliente repoCliente;
+    //RepoCliente repoCliente;
 
     public static void main(String[] args) {
         SpringApplication.run(Elementos1903Application.class, args);
@@ -22,16 +22,16 @@ public class Elementos1903Application implements CommandLineRunner {
         //repoCliente.save(new Cliente(2,"topoyin,","slayerghost1@gmail.com"));
         //repoCliente.save(new Cliente(3,"jesus,","jesusatan@gmail.com"));
         //buscar todos
-        for (Cliente c : repoCliente.findAll()) {
-            System.out.println(c);
-        }
+     //   for (Cliente c : repoCliente.findAll()) {
+          //  System.out.println(c);
+     //   }
         //BUSQUEDA POR EMAIL
         //for (Cliente d : repoCliente.findByEmail("Alex@hotmail.com")) {
            // System.out.println(d);
         //}
 
         //buscar por id
-        System.out.println(repoCliente.findById(2));
+      //  System.out.println(repoCliente.findById(2));
 
         //borramos el primero despues lo vuelven a insertar
         //repoCliente.deleteById(2);
