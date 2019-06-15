@@ -36,5 +36,9 @@ public class Estatus {
         this.mensaje = mensaje;
         this.sucess = sucess;
     }
+
+    void setSuccess(boolean b) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
