@@ -29,6 +29,8 @@ public class ControladorProfesor {
  ///metodo para guardar
     @Autowired
     RepoProfesor repoProfe;
+    
+    //guardar
     @PostMapping ("/profesor")
     public Estatus guardar(@RequestBody String json) throws Exception{
     //primero vamos a recibir el jsondel cliente web y lo transformamos
